@@ -1,0 +1,34 @@
+.nav-container.pagination
+  & ul
+    text-align: center
+    float: none !important
+    & li
+      float: none
+      line-height: 34px
+      display: inline-flex
+      margin-bottom: 20px
+      & a
+        @include no-transition
+        @include box-shadow
+        margin: 0 10px
+        padding: 0
+        border-radius: 50%
+        background: #ffffff
+        color: $primaryColor
+        text-decoration: none
+        width: 36px
+        height: 36px
+        &::after
+          @include no-transition
+        &:hover
+          border-color: $secondaryColor
+          color: $primaryColor
+          &::after
+            border-radius: 50%
+            background: $secondaryColor
+            @include no-transition
+      &.active
+        & a
+          background: $secondaryColor
+          color: #ffffff
+          border-color: $secondaryColor

@@ -1,0 +1,221 @@
+/*
+ * jQuery FlexSlider v2.7.2
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 and later license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ *
+ */
+/* ====================================================================================================================
+ * FONT-FACE
+ * ====================================================================================================================*/
+
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+
+/* ====================================================================================================================
+ * BASE STYLES
+ * ====================================================================================================================*/
+.flexslider {
+	direction:rtl;
+}
+/* ====================================================================================================================
+ * DEFAULT THEME
+ * ====================================================================================================================*/
+
+.carousel li {
+  margin-right: 5px;
+}
+.flex-direction-nav {
+  *height: 0;
+}
+
+.flex-direction-nav a:before {
+  content: '\f002';
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\f001';
+}
+.flex-direction-nav .flex-prev {
+  left: auto; right: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: auto; left: -50px;
+  text-align: left;
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: auto; right: 10px;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: auto; left: 10px;
+}
+
+
+.flex-pauseplay a {
+  left: auto; right: 10px;
+}
+
+/* ====================================================================================================================
+ * RESPONSIVE
+ * ====================================================================================================================*/
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    left: auto; right: 10px;
+  }
+  .flex-direction-nav .flex-next {
+    right: auto; left: 10px;
+  }
+}
+@media only screen and (max-width:600px){
+    #wasiAppSingle .pull-left{
+        float:none !important;
+        text-align: center;
+        font-weight: 800 !important;
+    }
+    .page-header{
+        margin-top: 10px;
+    }
+    .no-breadcrumb #main{
+        margin-top: 10px;
+    }
+    #wasiAppSingle .pull-right.pricing{
+        float:none !important;
+        text-align: center;
+        border-left: none !important;
+        padding: 0 !important;
+    }
+    .listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div{
+        width:33.33% !important;
+    }
+    .listing-detail .listing-detail-section-columns>.summary>.summary-internal>ul>li, .listing-detail .listing-detail-section-columns>.summary>.summary-external>ul>li{
+        flex-basis: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+    }
+    .sidebarq{
+        display: table;
+        clear:both;
+    }
+}
+
+.summary-block.summary-benefits{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    justify-content: flex-start;
+}
+.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div{
+    width:20%;
+    padding-right: 0 !important;
+    margin-bottom:2rem;
+}
+.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>b{
+    margin-bottom:0.5rem;
+}
+#wasiAppSingle .pull-right.pricing{
+    padding: 0 0 0 2rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+.listings-row article .listing-column .listing-column-details>div>i, .listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>i {
+    color: #36a8fc !important;
+}
+
+.sidebarq{
+    height: fit-content;
+    border: 1px solid #e3e3e3;
+    webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+}
+
+#propform #submit, #wasi-contact-btn{
+    border-radius:0;
+    margin:0;
+}
+#mobileview{
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+}
+#propform input[type='text'], #propform input[type='password'], #propform input[type='email'], #propform input[type='url'], #propform input[type='tel'], #propform input[type='number'], #wasiContactApp input[type='text'], #wasiContactApp input[type='password'], #wasiContactApp input[type='email'], #wasiContactApp input[type='url'], #wasiContactApp input[type='tel'], #wasiContactApp input[type='number'], #wasiContactApp textarea{
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    padding:10px 15px;
+    margin-bottom:0;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+}
+#propform .labl, #wasiContactApp label{
+    padding: 10px 15px 0 15px;
+    width: 100%;
+}
+div#agentform{
+    padding-top:0 !important;
+}
+#wasiContactApp form{
+    padding:0 !important;
+    box-shadow: none !important;
+    border:none !important;
+    border-top: 1px solid #e3e3e3 !important;
+}
+#wasiContactApp .form-group{
+    margin-bottom:0 !important;
+}
+#wasi_contact_widget-2{
+    margin-bottom: 0;
+}
+.flex-control-nav {
+    width: 100%;
+    position: unset !important;
+    bottom: -40px;
+    text-align: center;
+}
+.flexslider {
+      margin-bottom: 10px;
+    }
+
+    .flex-control-nav {
+      position: relative;
+      bottom: auto;
+    }
+
+    .custom-navigation {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .custom-navigation > * {
+      display: table-cell;
+    }
+
+    .custom-navigation > a {
+      width: 50px;
+    }
+
+    .custom-navigation .flex-next {
+      text-align: right;
+    }       
+.custom-controls-container {
+    display: none !important;
+}
+#wasi_gallery_container{
+     position:relative;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}

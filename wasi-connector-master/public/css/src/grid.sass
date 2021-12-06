@@ -1,0 +1,84 @@
+.listings-row
+  display: flex
+  flex-wrap: wrap
+  article
+    width: 33.33%
+    padding-left: 10px
+    padding-right: 10px
+    margin-bottom: 20px
+
+    @media (max-width: 880px)
+      width: 50%
+    @media (max-width: 600px)
+      width: 100%
+    .listing-column
+      @include box-shadow
+      .listing-column-image-wrapper
+        position: relative
+        border-bottom: 1px solid rgb(0 0 0 / 5%)
+        .listing-column-image
+          background-size: cover
+          background-position: center center
+          background-repeat: no-repeat
+          display: block
+          height: 240px
+        .listing-column-label
+          position: absolute
+          bottom: .5em
+          left: 0.6em
+          color: #fff
+          font-size: 0.8em
+          text-shadow: #000 1px 1px 1px
+          &.for-sale, &.for-rent
+            right: .6em
+            left: auto
+            border-radius: 5px
+            padding: 4px 8px
+            line-height: 1.3em
+            font-size: 0.6em
+            bottom: 1em
+            text-transform: capitalize
+            text-shadow: none
+          &.for-sale
+            background-color: $thirdColor
+          &.for-rent
+            background-color: $secondaryColor
+      .listing-column-title,
+      .listing-column-address,
+      .listing-column-date,
+      .listing-column-details,
+      .listing-column-label-special
+        padding: 0 10px 10px 10px
+      .listing-column-title
+        padding-top: 10px
+        height: 5em
+        overflow: hidden
+        & > h3 > a
+          font-size: 0.9em !important
+          width: 100%
+          display: block
+      .listing-column-date
+        font-size: .7em
+      .listing-column-details
+        @include property-benefits
+    .listing-column-label-special
+      & > span
+        display: block
+        color: $secondaryColor
+        & > b
+          display: block
+          font-size: .6em
+          line-height: 1em
+          color: $primaryColor
+    .listing-column-address
+      a
+        text-decoration: none
+        i
+          font-size: 0.6em
+          color: $secondaryColor
+        address
+          margin: 0
+          font-size: .7em
+          color: $secondaryColor
+          display: inline-block
+

@@ -1,0 +1,168 @@
+.listings-row{display:flex;flex-wrap:wrap}.listings-row article{width:33.33%;padding-left:10px;padding-right:10px;margin-bottom:20px}@media(max-width: 880px){.listings-row article{width:50%}}@media(max-width: 600px){.listings-row article{width:100%}}.listings-row article .listing-column{-webkit-box-shadow:0 0 5px 2px rgba(0,0,0,.05);box-shadow:0 0 5px 2px rgba(0,0,0,.05)}.listings-row article .listing-column .listing-column-image-wrapper{position:relative;border-bottom:1px solid rgba(0,0,0,.05)}.listings-row article .listing-column .listing-column-image-wrapper .listing-column-image{background-size:cover;background-position:center center;background-repeat:no-repeat;display:block;height:240px}.listings-row article .listing-column .listing-column-image-wrapper .listing-column-label{position:absolute;bottom:.5em;left:.6em;color:#fff;font-size:.8em;text-shadow:#000 1px 1px 1px}.listings-row article .listing-column .listing-column-image-wrapper .listing-column-label.for-sale,.listings-row article .listing-column .listing-column-image-wrapper .listing-column-label.for-rent{right:.6em;left:auto;border-radius:5px;padding:4px 8px;line-height:1.3em;font-size:.6em;bottom:1em;text-transform:capitalize;text-shadow:none}.listings-row article .listing-column .listing-column-image-wrapper .listing-column-label.for-sale{background-color:#fe6847}.listings-row article .listing-column .listing-column-image-wrapper .listing-column-label.for-rent{background-color:#36a8fc}.listings-row article .listing-column .listing-column-title,.listings-row article .listing-column .listing-column-address,.listings-row article .listing-column .listing-column-date,.listings-row article .listing-column .listing-column-details,.listings-row article .listing-column .listing-column-label-special{padding:0 10px 10px 10px}.listings-row article .listing-column .listing-column-title{padding-top:10px;height:5em;overflow:hidden}.listings-row article .listing-column .listing-column-title>h3>a{font-size:.9em !important;width:100%;display:block}.listings-row article .listing-column .listing-column-date{font-size:.7em}.listings-row article .listing-column .listing-column-details>div{display:inline-block;width:60px;font-size:.8em}.listings-row article .listing-column .listing-column-details>div>b{display:block;font-size:.8em;line-height:1em;font-weight:normal}.listings-row article .listing-column .listing-column-details>div>i{color:gray;margin-right:5px}.listings-row article .listing-column-label-special>span{display:block;color:#36a8fc}.listings-row article .listing-column-label-special>span>b{display:block;font-size:.6em;line-height:1em;color:#181818}.listings-row article .listing-column-address a{text-decoration:none}.listings-row article .listing-column-address a i{font-size:.6em;color:#36a8fc}.listings-row article .listing-column-address a address{margin:0;font-size:.7em;color:#36a8fc;display:inline-block}.listing-detail{padding-left:10px;padding-right:10px}.listing-detail .page-header{border:0}.listing-detail .page-header h3 sub{color:gray}.listing-detail .ug-gallery-wrapper .ug-theme-panel{display:none}.listing-detail .pricing{color:#36a8fc;font-size:1.4em}.listing-detail .pricing b{display:block;color:#181818;font-size:.8em;font-weight:normal}.listing-detail .listing-detail-section-columns{display:flex}.listing-detail .listing-detail-section-columns>.summary,.listing-detail .listing-detail-section-columns>.sidebar{padding:25px;-webkit-box-shadow:0 0 5px 2px rgba(0,0,0,.05);box-shadow:0 0 5px 2px rgba(0,0,0,.05)}.listing-detail .listing-detail-section-columns>.summary{width:70%;border:1px solid #e3e3e3;margin-right:20px}.listing-detail .listing-detail-section-columns>.summary>.summary-header{height:55px;border-bottom:1px solid #e3e3e3;margin-bottom:20px}.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div{display:inline-block;width:100px;font-size:.8em}.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>b{display:block;font-size:1em;line-height:1em;font-weight:normal}.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>i{color:gray;margin-right:5px}.listing-detail .listing-detail-section-columns>.summary>.summary-additional-details>ul>li{list-style:none;padding:3px 15px;font-size:.8em}.listing-detail .listing-detail-section-columns>.summary>.summary-additional-details>ul>li:nth-child(odd){background-color:#fff}.listing-detail .listing-detail-section-columns>.summary>.summary-additional-details>ul>li:nth-child(even){background-color:#e3e3e3}.listing-detail .listing-detail-section-columns>.summary>.summary-video>iframe{width:100%;height:400px}.listing-detail .listing-detail-section-columns>.summary>.summary-internal>ul,.listing-detail .listing-detail-section-columns>.summary>.summary-external>ul{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;display:flex;flex-wrap:wrap}.listing-detail .listing-detail-section-columns>.summary>.summary-internal>ul>li,.listing-detail .listing-detail-section-columns>.summary>.summary-external>ul>li{display:flex;flex-basis:33.333%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-basis:33.333%;-ms-flex-preferred-size:33.333%}.listing-detail .listing-detail-section-columns>.summary>.summary-internal>ul>li>i,.listing-detail .listing-detail-section-columns>.summary>.summary-external>ul>li>i{margin-right:5px;color:#fe6847;font-size:.8em}.listing-detail .listing-detail-section-columns>.summary>.summary-block{margin-bottom:20px}.listing-detail .listing-detail-section-columns>.summary>.summary-block>b{color:#36a8fc;margin-bottom:10px;font-size:1.2em;display:block}.listing-detail .listing-detail-section-columns>.sidebar{width:30%;border:1px solid #e3e3e3;margin-left:20px}.listing-detail .listing-detail-section-columns>.sidebar>ul>li.widget{list-style:none;padding:0;margin:0}.listing-search-bar{padding-left:10px;padding-right:10px;display:table;width:100%;margin-bottom:25px}.listing-search-bar>div{display:table-cell;vertical-align:top;border:1px solid #e3e3e3;border-right:0}.listing-search-bar>div>label{padding-left:10px}.listing-search-bar>div .selection-box::after{border:0}.listing-search-bar>div .selection-box>select{padding:0 45px 0 10px;border:0;margin:0}.listing-search-bar>div>button{margin:0;width:100%;display:block;border-radius:0;padding:25px 0}.nav-container.pagination ul{text-align:center;float:none !important}.nav-container.pagination ul li{float:none;line-height:34px;display:inline-flex;margin-bottom:20px}.nav-container.pagination ul li a{transition:none;-webkit-transition:none;-webkit-box-shadow:0 0 5px 2px rgba(0,0,0,.05);box-shadow:0 0 5px 2px rgba(0,0,0,.05);margin:0 10px;padding:0;border-radius:50%;background:#fff;color:#181818;text-decoration:none;width:36px;height:36px}.nav-container.pagination ul li a::after{transition:none;-webkit-transition:none}.nav-container.pagination ul li a:hover{border-color:#36a8fc;color:#181818}.nav-container.pagination ul li a:hover::after{border-radius:50%;background:#36a8fc;transition:none;-webkit-transition:none}.nav-container.pagination ul li.active a{background:#36a8fc;color:#fff;border-color:#36a8fc}/*# sourceMappingURL=wasi-connector-public.css.map */
+
+/*WASI Pplugin - CSS Source*/
+
+.pageProperties1 div#wasi_gallery {margin: -29px 0px -135px 0px!important;}
+.pageProperties1 div#wasi_gallery ul > li {max-height: 550px !important;}
+.pageProperties1 div#wasi_gallery ul > li img {width: 80% !important; object-position: 0px -10vw !important; object-fit: cover !important;}
+
+.pageProperties1.listing-detail .listing-detail-section-columns>.summary>.summary-block>b {font-size: 21px !important;}
+.propertiesGrid1.listings-row article .listing-column-label-special>span>b {font-size: 14px !important;}
+.pageProperties1 h3{line-height: 28px !important;}
+
+/*WASI Pplugin - CSS Source*/
+
+
+@media only screen and (max-width:630px) {
+    /*WASI Pplugin - CSS Source*/
+
+        .pageProperties1 div#wasi_gallery {margin: 0px!important;}
+        .pageProperties1 div#wasi_gallery ul > li {max-height: 100% !important;}
+        .pageProperties1 div#wasi_gallery ul > li img {width: 100% !important; object-position: 0px 0px !important; object-fit: cover !important;}
+
+    /*WASI Pplugin - CSS Source*/
+}
+@media only screen and (max-width:600px){
+    #wasiAppSingle .pull-left{
+        float:none !important;
+        text-align: center;
+        font-weight: 800 !important;
+    }
+    .page-header{
+        margin-top: 10px;
+    }
+    .no-breadcrumb #main{
+        margin-top: 10px;
+    }
+    #wasiAppSingle .pull-right.pricing{
+        float:none !important;
+        text-align: center;
+        border-left: none !important;
+        padding: 0 !important;
+    }
+    .listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div{
+        width:33.33% !important;
+    }
+    .listing-detail .listing-detail-section-columns>.summary>.summary-internal>ul>li, .listing-detail .listing-detail-section-columns>.summary>.summary-external>ul>li{
+        flex-basis: 100%;
+        -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+    }
+    .sidebarq{
+        display: table;
+        clear:both;
+    }
+}
+
+.summary-block.summary-benefits{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    justify-content: flex-start;
+}
+.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div{
+    width:20%;
+    padding-right: 0 !important;
+    margin-bottom:2rem;
+}
+.listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>b{
+    margin-bottom:0.5rem;
+}
+#wasiAppSingle .pull-right.pricing{
+    padding: 0 0 0 2rem;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+.listings-row article .listing-column .listing-column-details>div>i, .listing-detail .listing-detail-section-columns>.summary>.summary-benefits>div>i {
+    color: #36a8fc !important;
+}
+
+.sidebarq{
+    height: fit-content;
+    border: 1px solid #e3e3e3;
+    webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+    box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%);
+}
+
+#propform #submit, #wasi-contact-btn{
+    border-radius:0;
+    margin:0;
+}
+#mobileview{
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+}
+#propform input[type='text'], #propform input[type='password'], #propform input[type='email'], #propform input[type='url'], #propform input[type='tel'], #propform input[type='number'], #wasiContactApp input[type='text'], #wasiContactApp input[type='password'], #wasiContactApp input[type='email'], #wasiContactApp input[type='url'], #wasiContactApp input[type='tel'], #wasiContactApp input[type='number'], #wasiContactApp textarea{
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    padding:10px 15px;
+    margin-bottom:0;
+    box-shadow: none;
+    border-radius: 0;
+    height: auto;
+}
+#propform .labl, #wasiContactApp label{
+    padding: 10px 15px 0 15px;
+    width: 100%;
+}
+div#agentform{
+    padding-top:0 !important;
+}
+#wasiContactApp form{
+    padding:0 !important;
+    box-shadow: none !important;
+    border:none !important;
+    border-top: 1px solid #e3e3e3 !important;
+}
+#wasiContactApp .form-group{
+    margin-bottom:0 !important;
+}
+#wasi_contact_widget-2{
+    margin-bottom: 0;
+}
+.flex-control-nav {
+    width: 100%;
+    position: unset !important;
+    bottom: -40px;
+    text-align: center;
+}
+.flexslider {
+      margin-bottom: 10px;
+    }
+
+    .flex-control-nav {
+      position: relative;
+      bottom: auto;
+    }
+
+    .custom-navigation {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .custom-navigation > * {
+      display: table-cell;
+    }
+
+    .custom-navigation > a {
+      width: 50px;
+    }
+
+    .custom-navigation .flex-next {
+      text-align: right;
+    }        
+
+
+/***********************************************************************************************************************/
+
+
+.listing-detail .listing-detail-section-columns>.summary>.summary-block>b {font-size: 25px !important; font-weight: 600 !important;}
+div.sidebarq div#mobileview center > h3 {line-height: 28px !important;}

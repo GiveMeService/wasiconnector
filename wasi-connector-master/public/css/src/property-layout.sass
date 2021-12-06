@@ -1,0 +1,65 @@
+.listing-detail
+  padding-left: 10px
+  padding-right: 10px
+
+  .page-header
+    border: 0
+    h3
+      sub
+        color: #808080
+
+  .ug-gallery-wrapper
+    .ug-theme-panel
+      display: none
+  .pricing
+    color: $secondaryColor
+    font-size: 1.4em
+    b
+      display: block
+      color: $primaryColor
+      font-size: .8em
+      font-weight: normal
+
+  .listing-detail-section-columns
+    display: flex
+    & > .summary, & > .sidebar
+      padding: 25px
+      @include box-shadow
+    & > .summary
+      width: 70%
+      border: 1px solid #e3e3e3
+      margin-right: 20px
+      & > .summary-header
+        height: 55px
+        border-bottom: 1px solid #e3e3e3
+        margin-bottom: 20px
+      & > .summary-benefits
+        @include property-benefits(100px, 0.8em, 1em)
+      & > .summary-additional-details
+        & > ul
+          @include ul-even-odd()
+      & > .summary-video > iframe
+        width: 100%
+        height: 400px
+      & > .summary-internal, & > .summary-external
+        & > ul
+          @include ul-flex
+          & > li > i
+            margin-right: 5px
+            color: #fe6847
+            font-size: 0.8em
+      & > .summary-block
+        margin-bottom: 20px
+        & > b
+          color: $secondaryColor
+          margin-bottom: 10px
+          font-size: 1.2em
+          display: block
+    & > .sidebar
+      width: 30%
+      border: 1px solid #e3e3e3
+      margin-left: 20px
+      & > ul > li.widget
+        list-style: none
+        padding: 0
+        margin: 0

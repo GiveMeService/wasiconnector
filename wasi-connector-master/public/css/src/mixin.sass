@@ -1,0 +1,51 @@
+@mixin no-transition
+  transition: none
+  -webkit-transition: none
+
+@mixin box-shadow
+  -webkit-box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%)
+  box-shadow: 0 0 5px 2px rgb(0 0 0 / 5%)
+
+@mixin property-benefits($width: 60px, $fontsize: 0.8em, $fontsize2: 0.8em)
+  & > div
+    display: inline-block
+    width: $width
+    font-size: $fontsize
+    & > b
+      display: block
+      font-size: $fontsize2
+      line-height: 1em
+      font-weight: normal
+    & > i
+      color: #808080
+      margin-right: 5px
+
+@mixin ul-even-odd($padding: 3px 15px, $fontsize: 0.8em)
+  & > li
+    list-style: none
+    padding: $padding
+    font-size: $fontsize
+    &:nth-child(odd)
+      background-color: #fff
+    &:nth-child(even)
+      background-color: #e3e3e3
+
+@mixin ul-flex
+  &
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+    display: flex
+    flex-wrap: wrap
+    & > li
+      display: flex
+      flex-basis: 33.333%
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -ms-flex-align: center
+      align-items: center
+      -webkit-flex-basis: 33.333%
+      -ms-flex-preferred-size: 33.333%
+
