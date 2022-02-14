@@ -6,7 +6,10 @@ Tested up to: 4.9.6
 License: CC BY-ND 4.0
 License URI: https://creativecommons.org/licenses/by-nd/4.0/
 
-Plugin que permite conectar y mostrar un listado de propiedades inmobiliarias desde Wasi.co
+== INFORMACIÓN IMPORTATE ==
+Este plugin permite conectar y mostrar un listado de propiedades inmobiliarias desde Wasi.co en su sitio web. Es importante tener en cuenta, que el desarrollo no fue realizado por wasi.co y es por esto que todas las solicitudes de soporte técnico serán atendidas en orden de llegada y teniendo en cuenta la disponibilidad de la empresa que realizó este desarrollo. Así mismo, en caso de que el plugin no funcione por incompatibilidades con el tema y/o otras características internas de la instalación de su WordPress, la revisión y/o soporte podría generar un costo adicional.
+
+En aquellos casos dónde el tema genere dichas incompatibilidades, sugerimos usar directamente el sitio web de WASI.CO para un mejor funcionamiento.
 
 == Descripción ==
 
