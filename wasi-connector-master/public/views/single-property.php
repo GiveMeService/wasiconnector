@@ -162,7 +162,7 @@ $c = new WasiAPICient();
               <?php } ?>
             </li>
             <li>
-              <b><?php _e('Año constrición:', 'wasico'); ?></b> <?php echo $single_property->building_date ?>
+              <b><?php _e('Año construcción:', 'wasico'); ?></b> <?php echo $single_property->building_date ?>
             </li>
             <li>
               <b><?php _e('Estrato:', 'wasico'); ?></b> <?php echo $single_property->stratum ?>
